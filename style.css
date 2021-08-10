@@ -1,0 +1,275 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hr-style {
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+
+.section-title h3 {
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+
+/*header starts*/
+
+header {
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-icon {
+    color: #ffff;
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: auto;
+}
+
+.nav-link {
+    color: #ffff;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s ease;
+}
+
+.nav-link:hover {
+    background: #2980b9;
+    color: white;
+    transform: scale(1.1);
+}
+
+.banner-container {
+    height: 100vh;
+}
+
+.banner-container h1 {
+    font-size: 3.5rem;
+    background: rgba(7, 101, 189, 0.8);
+    padding: 10px 20px;
+    font-family: 'Handlee', cursive;
+    border-radius: 5px;
+}
+
+
+/*header ends*/
+
+
+/*features starts here*/
+
+#features {
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+
+.features-col {
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+
+.features-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 8px black;
+}
+
+.icon-style {
+    background: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+
+/*features ends here*/
+
+
+/*abouts me starts here*/
+
+#about-me {
+    padding: 4% 10%;
+    background-color: #e8ded2;
+}
+
+#about-me p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: light;
+}
+
+#about-me a {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    text-decoration: underline;
+    color: black;
+}
+
+.td-style {
+    color: rgb(148, 76, 189);
+}
+
+.star i {
+    width: 20px;
+    color: aqua;
+}
+
+
+/*abouts me ends here*/
+
+
+/* tutorial section starts here */
+
+#tutorial {
+    padding: 4% 10%;
+    background: lightblue;
+}
+
+.card {
+    transition: .4s;
+    border: 1px solid #ff02c0;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+
+/* tutorial section endss here */
+
+
+/* feedback starts */
+
+#feedback {
+    padding: 5%;
+    background: #55ea29;
+}
+
+.bg-style {
+    background: none;
+    border: none;
+}
+
+.feedback-img {
+    width: 120px;
+    height: auto;
+}
+
+.ind-style {
+    width: 60px;
+    padding: 1px 30px;
+    margin-right: 5px;
+}
+
+.icon-col-style {
+    color: black;
+    font-weight: bolder;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+
+/* feedback starts */
+
+#team {
+    padding: 5% 10%;
+    background-color: #d68d34;
+}
+
+.team-col {
+    text-align: center;
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+
+.team-col img {
+    width: 120px;
+    height: auto;
+}
+
+.team-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 8px black;
+}
+
+
+/* contact starts here */
+
+#contact {
+    padding: 2% 10%;
+    background: #34d6c0;
+}
+
+.form-control label {
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+
+/* contact ends here */
+
+
+/* footer section starts here */
+
+footer {
+    padding: 1% 10%;
+    background: #056676;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: black;
+}
+
+
+/* footer section ends here */
+
+@media(max-width:780px) {
+    .nav-link {
+        background: rgba(0, 0, 0, 0.7);
+    }
+    .banner-container h1 {
+        font-size: 2.5rem;
+    }
+}
